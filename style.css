@@ -1,0 +1,54 @@
+/*configuração do corpo( Projeto parte da interface)*/
+.corpo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	height: 100vh;
+	margin: 12;
+	background-color: #add7f6;
+}
+
+/*Fonte*/
+.p1 {
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*Formato da imagem*/
+body div img {
+	max-width: 600px;
+	border-radius: 50px;
+}
+
+/*Alinhamento dos texto 1*/
+.sec1 {
+	text-align: center;
+}
+
+/*Alinhamento dos textos 2*/
+.textt {
+	text-align: center;
+	color: #3b28cc;
+	font-size: 2.0rem;
+
+}
+
+/*Botão de loop, proximo gatinho*/
+button {
+	border: 1;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 30px;
+	background: #87bfff;
+	color: #3b28cc;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	border-radius: 10px;
+	width: 20vh;
+}
+
+/*coloração secundaria*/
+button:hover {
+	background: #2667ff;
+}
